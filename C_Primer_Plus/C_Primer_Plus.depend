@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1590714298 source:d:\desktop\sw\codeblock\proj\c_primer_plus\main.c
+1590738020 source:d:\desktop\sw\codeblock\proj\c_primer_plus\main.c
 	<stdio.h>
 
 1590046605 d:\desktop\sw\codeblock\proj\c_primer_plus\untitled1.h
@@ -17,12 +17,12 @@
 
 1590050705 d:\desktop\sw\codeblock\proj\c_primer_plus\main.h
 
-1590481957 source:d:\desktop\sw\codeblock\proj\c_primer_plus\afunc.c
+1590716641 source:d:\desktop\sw\codeblock\proj\c_primer_plus\afunc.c
 	<stdio.h>
 
-1590481909 d:\desktop\sw\codeblock\proj\c_primer_plus\basic.h
+1590716641 d:\desktop\sw\codeblock\proj\c_primer_plus\basic.h
 	<stdio.h>
 
-1590481665 source:d:\desktop\sw\codeblock\proj\c_primer_plus\bfunc.c
+1590716641 source:d:\desktop\sw\codeblock\proj\c_primer_plus\bfunc.c
 	"Basic.h"
 
