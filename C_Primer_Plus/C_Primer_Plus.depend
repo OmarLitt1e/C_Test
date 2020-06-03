@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1590738020 source:d:\desktop\sw\codeblock\proj\c_primer_plus\main.c
+1591171802 source:d:\desktop\sw\codeblock\proj\c_primer_plus\main.c
 	<stdio.h>
+	<float.h>
 
 1590046605 d:\desktop\sw\codeblock\proj\c_primer_plus\untitled1.h
 

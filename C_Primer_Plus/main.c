@@ -1,129 +1,163 @@
-///////////////4.8-8/////////////////
+///////////////5.11-9/////////////////
 #include <stdio.h>
-#include <float.h>
-
+void Temperatures(double Fahr);
+const double Cels2Fahr_Para1=5.0/9.0;
+const double Cels2Fahr_Para2=32.0;
+const double Kelv2Cels=273.16;
 int main(void)
 {
-    float mile;
-    float gallon;
+    double Fahr;
 
-    printf("Enter mile and gas gallon\n");
-    scanf("%f%f",&mile,&gallon);
-    printf("mile per gallon is %.1f\n",mile/gallon);
-    printf("kilometer per litre is %.1f\n",(mile*1.609)/(gallon*3.785));
+    printf("Enter the temperature in Fahr:\n");
 
+    while(1==(scanf("%lf",&Fahr)) && Fahr>0)
+        Temperatures(Fahr);
     return 0;
 }
+void Temperatures(double Fahr)
+{
+    printf("Temperature in Celsius is %f\n",Cels2Fahr_Para1*(Fahr-Cels2Fahr_Para2));
+    printf("Temperature in Kelvin is %f\n",Cels2Fahr_Para1*(Fahr-Cels2Fahr_Para2)+Kelv2Cels);
+    printf("Enter the temperature in Fahr:\n");
+}
 
-/////////////////4.8-7/////////////////
+/////////////////5.11-8/////////////////
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//    int SecondPara;
+//    int FirstPara;
+//
+//    printf("Enter the second parameter:\n");
+//    scanf("%d",&SecondPara);
+//    printf("Enter the first parameter\n");
+//    scanf("%d",&FirstPara);
+//    while(FirstPara>0)
+//    {
+//        printf("Modulus operation result is %d\n",FirstPara/SecondPara);
+//        printf("Enter the first parameter\n");
+//        scanf("%d",&FirstPara);
+//    }
+//    return 0;
+//}
+
+
+/////////////////5.11-7/////////////////
+//#include <stdio.h>
+//void Cube(double num);
+//int main(void)
+//{
+//    double num;
+//    printf("Enter a double number:\n");
+//    scanf("%lf",&num);
+//    Cube(num);
+//    return 0;
+//}
+//void Cube(double num)
+//{
+//    printf("the cube of num is %f\n",num*num*num);
+//}
+/////////////////5.11-6/////////////////
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//    unsigned char DayNum;
+//    unsigned int count, Money;
+//    count = 0;
+//    Money = 0;
+//    printf("Enter days number:\n");
+//    scanf("%u",&DayNum);
+//    while (++count< (int)DayNum+1)
+//        Money = Money + count*count;
+//    printf("Money in %u is = %u\n",DayNum, Money);
+//
+//    return 0;
+//}
+
+/////////////////5.11-5/////////////////
 //#include <stdio.h>
 //#include <float.h>
-//
+//const float CMPerInch=2.54;
 //int main(void)
 //{
-//    double a=1.0/3.0;
-//    float b=1.0/3.0;
-//
-//    printf("%.6f\t%.6f\n",a,b);
-//    printf("%.12f\t%.12f\n",a,b);
-//    printf("%.16f\t%.16f\n",a,b);
-//    printf("FLT_DIG is %d\nDBL_DIG is %d\n",FLT_DIG,DBL_DIG);
-//    return 0;
-//}
-
-/////////////////4.8-6/////////////////
-//#include <stdio.h>
-//#include <string.h>
-//int main(void)
-//{
-//    float rate;
-//    float size;
-//    char FirstName[10];
-//    char LastName[10];
-//    printf("Enter your first name\n");
-//    scanf("%s",FirstName);
-//    printf("Enter your last name\n");
-//    scanf("%s",LastName);
-//    printf("%s %s\n",LastName,FirstName);
-//    printf("%d\t%d\n",(unsigned char)strlen(LastName),(unsigned char)strlen(FirstName));
-//
-//    printf("%-s\t%-s\n",LastName,FirstName);
-//    printf("%-d\t%-d\n",(unsigned char)strlen(LastName),(unsigned char)strlen(FirstName));
+//    unsigned char DayNum;
+//    unsigned int count, Money;
+//    count = 0;
+//    Money = 0;
+//    printf("Enter days number:\n");
+//    scanf("%u",&DayNum);
+//    while (count< (int)DayNum+1)
+//        Money = Money + (count++);
+//    printf("Money in %u is = %u\n",DayNum, Money);
 //
 //    return 0;
 //}
 
-/////////////////4.8-5/////////////////
+/////////////////5.11-4/////////////////
 //#include <stdio.h>
-//
+//#include <float.h>
+//const float CMPerInch=2.54;
 //int main(void)
 //{
-//    float rate;
-//    float size;
-//
-//    printf("Enter rate and size\n");
-//    scanf("%f%f",&rate,&size);
-//    printf("At %.2f megabits per second, a file of %.2f megabytes"
-//    " downloads in %.2f seconds\n",
-//    rate,size,size*8.0/rate);
+//    float Stature;
+//    printf("Enter your stature in CM:\n");
+//    scanf("%f",&Stature);
+//    while(Stature> FLT_EPSILON)
+//    {
+//        printf("Your stature in CM is %.1f in Inch is %.1f\n",Stature,Stature/CMPerInch);
+//        printf("Enter your stature in CM:\n");
+//        scanf("%f",&Stature);
+//    }
 //
 //    return 0;
 //}
 
-/////////////////4.8-4/////////////////
+/////////////////5.11-3/////////////////
 //#include <stdio.h>
-//
+//const unsigned int DaysOfWeek=7;
 //int main(void)
 //{
-//    float stature;
-//    char name[20];
-//    printf("Enter your stature and name\n");
-//    scanf("%f%s",&stature,name);
-//    printf("%s, you are %.3f feet tall\n",name,stature);
+//    int NumOfDay;
+//    printf("Enter day number:\n");
+//    scanf("%d",&NumOfDay);
+//    while(NumOfDay>0)
+//    {
+//        printf("%d days are %d weeks, %d days\n",NumOfDay,NumOfDay/DaysOfWeek,NumOfDay%DaysOfWeek);
+//        printf("Enter day number:\n");
+//        scanf("%d",&NumOfDay);
+//    }
 //
 //    return 0;
 //}
 
-/////////////////4.8-3/////////////////
+/////////////////5.11-2/////////////////
 //#include <stdio.h>
-//
 //int main(void)
 //{
-//    float a;
-//
-//    scanf("%f",&a);
-//    printf("%e\n",a);
-//    printf("%+f\n",a);
+//    unsigned char i=0;
+//    int Num;
+//    scanf("%d",&Num);
+//    while(i<11)
+//        printf("%d\n",Num+(i++));
 //
 //    return 0;
 //}
 
-/////////////////4.8-2/////////////////
+/////////////////5.11-1/////////////////
 //#include <stdio.h>
-//
+//const int SecPerMin=60;
 //int main(void)
 //{
-//    char Name[20];
-//
-//    printf("Enter your name\n");
-//    scanf("%s",Name);
-//    printf("\"%20s\"\n",Name);
-//    printf("\"%15s\"\n",Name);
-//    //printf("\"%s%s\"\n",FirstName,LastName);
-//
+//    unsigned int TimeInMin;
+//    scanf("%d",&TimeInMin);
+//    while(TimeInMin>0)
+//    {
+//        printf("Hour: %d\tMinute: %d\n",TimeInMin/SecPerMin,TimeInMin%SecPerMin);
+//        scanf("%d",&TimeInMin);
+//    }
 //
 //    return 0;
 //}
 
-/////////////////4.8-1/////////////////
-//#include <stdio.h>
-//
-//int main(void)
-//{
-//    char FirstName[20];
-//    char LastName[20];
-//    printf("Enter your first name and last name\n");
-//    scanf("%s%s",FirstName,LastName);
-//    printf("Your name is \"%s,%s\"\n",FirstName,LastName);
-//    return 0;
-//}
