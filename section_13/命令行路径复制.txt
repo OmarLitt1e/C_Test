@@ -1,0 +1,12 @@
+\desktop\c\C_Primer_Plus\C_Primer_Plus\bin\Debug\C_Primer_Plus
+D:\desktop\c\C_Primer_Plus\C_Primer_Plus\
+
+\desktop\c\C_Primer_Plus\C_Primer_Plus\bin\Debug\C_Primer_Plus c D:\desktop\c\C_Primer_Plus\C_Primer_Plus\aa.txt D:\desktop\c\C_Primer_Plus\C_Primer_Plus\bb.txt D:\desktop\c\C_Primer_Plus\C_Primer_Plus\cc.txt
+
+\desktop\c\C_Primer_Plus\C_Primer_Plus\bin\Debug\C_Primer_Plus c
+D:\desktop\c\C_Primer_Plus\C_Primer_Plus\aa.txt
+D:\desktop\c\C_Primer_Plus\C_Primer_Plus\bb.txt
+
+\desktop\c\C_Primer_Plus\C_Primer_Plus\bin\Debug\C_Primer_Plus D:\desktop\c\C_Primer_Plus\C_Primer_Plus\aa.txt
+
+\desktop\c\C_Primer_Plus\C_Primer_Plus\bin\Debug\C_Primer_Plus a D:\desktop\c\C_Primer_Plus\C_Primer_Plus\aa.txt

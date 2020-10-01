@@ -1,0 +1,78 @@
+1.
+auto
+
+2.
+static
+extern
+
+3.
+extern
+static
+
+4.
+nop
+
+5.
+别的文件可以调用本文件全局变量
+
+6.
+calloc初始化内存单元为0
+
+7.
+daisy visible to all func
+lily only to main
+lily in petal() only to petal()
+lily in file2 only to func in file2
+rose out of 2 func visibleto 2 func
+rose in stem() only to stem()
+
+8.
+B
+R
+B
+G
+B
+
+9.
+plink is only used in this file
+parameter arr[] can not be modified in func value_ct()
+yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
