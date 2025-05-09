@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1741325456 source:d:\desk\documt\c\01_code\test\main.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1710381136 source:d:\desk\documt\c\01_code\test\md5\md5_0.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	"md5_0.h"
+
+1710377555 d:\desk\documt\c\01_code\test\md5\md5_0.h
+
+1740730409 source:d:\desk\documt\c\01_code\test\can-id\can-id.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	"can-id.h"
+
+1730447296 d:\desk\documt\c\01_code\test\can-id\can-id.h
+
+1720492892 source:d:\desk\documt\c\01_code\test\movingaveragefilter\movingaveragefilter.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+
+1721291191 source:d:\desk\documt\c\01_code\test\csv_process\csv_process.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<limits.h>
+	<float.h>
+	<sys/file.h>
+	<stdarg.h>
+
+1724297730 source:d:\desk\documt\c\01_code\test\sha256\sha2.c
+	"sha2.h"
+	<stdio.h>
+
+1724297731 d:\desk\documt\c\01_code\test\sha256\sha2.h
+	<string.h>
+	<basetsd.h>
+	<inttypes.h>
+	"sha2_alt.h"
+
+1724304672 source:d:\desk\documt\c\01_code\test\sha256\main.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	"sha2.h"
+
+1730353752 source:d:\desk\documt\c\01_code\c_lib\comparetxtfile\mytxtcompare.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<limits.h>
+	<float.h>
+	<sys/file.h>
+	<stdarg.h>
+
+1741249951 source:d:\desk\documt\c\01_code\igbt2.0\test_notchfilter\main.c
+	<stdio.h>
+	<stdint.h>
+	<math.h>
+
